@@ -1,1 +1,13 @@
+#remove method
 
+a = ("apple", "banana", "cherry", "blackberry")
+b = list(a)
+print(type(b))
+
+b.remove("cherry")
+print(type(b))
+
+b = tuple(b)
+print("New tupple: ")
+print(b)
+print(type(b))
